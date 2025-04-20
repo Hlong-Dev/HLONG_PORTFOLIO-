@@ -65,12 +65,16 @@ export default function HeroSection() {
             className="hidden md:flex justify-center items-center"
           >
             <div className="relative w-80 h-80">
-              <div className="absolute inset-0 rounded-full bg-primary/20 animate-float"></div>
-              <div className="absolute inset-2 rounded-full bg-background border-2 border-primary flex items-center justify-center overflow-hidden">
-                {/* You can add your profile image here */}
-                <span className="text-6xl font-bold text-primary">HL</span>
-              </div>
-            </div>
+  <div className="absolute inset-0 rounded-full bg-primary/20 animate-float"></div>
+  <div className="absolute inset-2 rounded-full bg-background border-2 border-primary flex items-center justify-center overflow-hidden">
+    <img
+      src="/images/avt.jpg"
+      alt="Avatar"
+      className="w-full h-full object-cover rounded-full"
+    />
+  </div>
+</div>
+
           </motion.div>
         </div>
       </div>

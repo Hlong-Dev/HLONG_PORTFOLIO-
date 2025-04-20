@@ -123,12 +123,12 @@ export default function ProjectsSection() {
                 <div className="text-5xl font-bold text-primary/20">
                   {project.title.split(' - ')[0]}
                 </div>
-                {/* If you have actual project images, uncomment this:
+                { 
                 <img 
                   src={project.image} 
                   alt={project.title} 
                   className="w-full h-full object-cover"
-                /> */}
+                /> }
               </div>
               
               {/* Project info */}
