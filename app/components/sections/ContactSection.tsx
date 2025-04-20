@@ -161,7 +161,7 @@ export default function ContactSection() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-2 rounded-md border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
-                  placeholder="John Doe"
+                  placeholder="Your Name"
                 />
               </div>
               
@@ -177,7 +177,7 @@ export default function ContactSection() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-2 rounded-md border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
-                  placeholder="john@example.com"
+                  placeholder="user@example.com"
                 />
               </div>
               
